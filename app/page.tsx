@@ -15,12 +15,12 @@ export default function Home() {
           <p className="intro">BeSomething creates focused, privacy-conscious tools that help people keep better records and understand their work.</p>
           <div className="actions"><a className="primary" href="#products">Explore our products</a><a className="secondary" href="mailto:be.something.llc@gmail.com">Contact BeSomething</a></div>
         </div>
-        <div className="principles" aria-label="Our principles">
+        <div className="hero-brand"><figure className="brand-art"><img src="/og.png" alt="BeSomething — Useful technology for everyday work." /></figure><div className="principles" aria-label="Our principles">
           <p>OUR APPROACH</p>
           <div><span>01</span><strong>Clear by design</strong><small>Tools should explain themselves.</small></div>
           <div><span>02</span><strong>Privacy considered</strong><small>Collect only what a product truly needs.</small></div>
           <div><span>03</span><strong>Built for real life</strong><small>Practical software for everyday people.</small></div>
-        </div>
+        </div></div>
       </section>
 
       <section className="about" id="about">
